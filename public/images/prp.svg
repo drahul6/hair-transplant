@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e3f2fd"/>
+      <stop offset="100%" stop-color="#bbdefb"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42a5f5"/>
+      <stop offset="100%" stop-color="#1976d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <g transform="translate(300,180)">
+    <path d="M0,-120 C-40,-60 -90,0 -90,50 C-90,95 -55,130 0,130 C55,130 90,95 90,50 C90,0 40,-60 0,-120 Z" fill="url(#drop)"/>
+  </g>
+  <text x="300" y="330" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#0d47a1" font-weight="700">PRP Therapy</text>
+</svg>
+
+
