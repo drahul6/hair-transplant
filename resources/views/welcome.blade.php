@@ -23,6 +23,11 @@
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link insta-icon" href="https://www.instagram.com/revivalclinic97/?hl=en" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

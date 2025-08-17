@@ -101,7 +101,7 @@
                             <div class="info-content">
                                 <h5>Visit Our Clinic</h5>
                                 <p>
-                                Revival Hair Transplant Clinic,Sco no.36, <br>First Floor,Mohali City Square,<br> Near Gopal Sweet</p>
+                                Revival Hair Transplant Clinic,Sco no.36, <br>First Floor,Mohali City Square,<br> Near Gopal Sweet <a href="#gmap">Map Location</a></p>
                             </div>
                         </div>
                         
@@ -133,7 +133,7 @@
                             </div>
                             <div class="info-content">
                                 <h5>Business Hours</h5>
-                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                                <p>Monday - Sunday: 9:00 AM - 9:00 PM</p>
                             </div>
                         </div>
                         
