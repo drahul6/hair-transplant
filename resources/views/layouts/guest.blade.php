@@ -11,6 +11,9 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -25,6 +28,14 @@
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>
+        </div>
+        
+        <!-- WhatsApp Floating Button -->
+        <div class="whatsapp-float">
+            <a href="https://wa.me/7988188609?text=Hi! I'm interested in hair transplant services. Can you help me?" 
+               class="whatsapp-float-btn" target="_blank" title="Chat with us on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
         </div>
     </body>
 </html>
