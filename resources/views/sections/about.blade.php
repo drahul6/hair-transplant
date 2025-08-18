@@ -5,7 +5,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-image-container">
-                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" class="about-image" alt="Hair Transplant Clinic">
+                    <img src="{{ asset('/images/clinic.png')}}" class="about-image" alt="Hair Transplant Clinic">
                     <div class="image-overlay">
                         <div class="overlay-content">
                             <i class="fas fa-user-md"></i>

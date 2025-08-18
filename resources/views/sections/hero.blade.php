@@ -13,7 +13,7 @@
     <div class="carousel-inner">
       <!-- Slide 1 -->
       <div class="carousel-item active">
-        <img src="{{ asset('images/banner_1.png') }}" class="d-block w-100" alt="Clinic Image 1">
+        <img src="{{ asset('/images/banner_1.jpg') }}" class="d-block w-100" alt="Clinic Image 1" style="height:550px; object-fit:cover;">
         <div class="carousel-caption d-flex flex-column justify-content-center h-100">
           <!-- <h3 class="banner-title">Transform Your Look Today!</h3>
           <p class="banner-text">Get up to <span class="highlight">30% OFF</span> on your first hair transplant procedure</p>
@@ -23,7 +23,7 @@
 
       <!-- Slide 2 -->
       <div class="carousel-item">
-        <img src="{{ asset('images/banner_2.png') }}" class="d-block w-100" alt="Clinic Image 2">
+        <img src="{{ asset('/images/banner_2.jpg') }}" class="d-block w-100" alt="Clinic Image 2" style="height:550px; object-fit:cover;">
         <div class="carousel-caption d-flex flex-column justify-content-center h-100">
           <!-- <h3 class="banner-title">Expert Hair Transplant Specialists</h3>
           <p class="banner-text">Trusted by 1000+ satisfied patients worldwide</p>
@@ -33,7 +33,7 @@
 
       <!-- Slide 3 -->
       <div class="carousel-item">
-        <img src="{{ asset('images/banner_2.png') }}" class="d-block w-100" alt="Clinic Image 3">
+        <img src="{{ asset('/images/banner_3.png') }}" class="d-block w-100" alt="Clinic Image 3" style="height:550px; object-fit:cover;">
         <div class="carousel-caption d-flex flex-column justify-content-center h-100">
           <!-- <h3 class="banner-title">Advanced Techniques</h3>
           <p class="banner-text">Natural Results with Lifetime Support</p>

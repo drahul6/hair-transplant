@@ -6,14 +6,19 @@
     <title>Hair Transplant Clinic</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/welcome.css') }}" rel="stylesheet">
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="#">Revival Hair Transplant Clinic</a>
+        <a class="navbar-brand d-flex align-items-center" href="#">
+  <img src="{{ asset('/images/logo.png') }}" alt="Revival Hair Transplant Clinic" style="height:40px; margin-right:10px;">
+  <span style="font-size:24px; font-weight:800; color:#0077ff; font-family: 'Poppins', sans-serif;">
+    Revival Hair Transplant Clinic
+  </span>
+</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>

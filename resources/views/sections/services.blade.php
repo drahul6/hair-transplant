@@ -6,7 +6,7 @@
             <div class="col-md-4">
                 <div class="service-card shadow-sm">
                     <div class="service-image">
-                        <img src="{{ asset('images/beard.png') }}" alt="FUE Transplant" class="img-fluid">
+                        <img src="{{ asset('/images/beard.png') }}" alt="FUE Transplant" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Beard Hair Transplant</h5>
@@ -18,7 +18,7 @@
             <div class="col-md-4 mt-4 mt-md-0">
                 <div class="service-card shadow-sm">
                     <div class="service-image">
-                        <img src="{{ asset('images/hair.png') }}" alt="PRP Therapy" class="img-fluid">
+                        <img src="{{ asset('/images/hair.png') }}" alt="PRP Therapy" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Hair Transplant</h5>
@@ -30,7 +30,7 @@
             <div class="col-md-4 mt-4 mt-md-0">
                 <div class="service-card shadow-sm">
                     <div class="service-image">
-                        <img src="{{ asset('images/eyebrow.png') }}" alt="Beard & Eyebrow" class="img-fluid">
+                        <img src="{{ asset('/images/eyebrow.png') }}" alt="Beard & Eyebrow" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Eyebrow Hair Transplant</h5>
