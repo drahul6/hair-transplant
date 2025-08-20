@@ -61,12 +61,14 @@
                             </label>
                             <select name="service" class="form-control">
                                 <option value="">Select a service</option>
-                                <option value="fue">FUE Hair Transplant</option>
-                                <option value="prp">PRP Therapy</option>
-                                <option value="beard">Beard & Eyebrow Transplant</option>
-                                <option value="consultation">Free Consultation</option>
+                                <option value="Moustache-Transplant">Moustache Transplant</option>
+                                <option value="PRP">PRP Therapy ( Platelet Rich Plasma)</option>
+                                <option value="GFC-Therapy">GFC Therapy</option>
+                                <option value="Biotin-PRP">Biotin PRP</option>
+				                <option value="Mesotherapy">Mesotherapy</option>
                                 <option value="other">Other</option>
                             </select>
+
                             <div class="invalid-feedback"></div>
                         </div>
                         
