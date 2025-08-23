@@ -42,6 +42,8 @@
     @include('sections.banner')
     @include('sections.about')
     @include('sections.services')
+    @include('sections.results')
+    @include('sections.technologies')
     @include('sections.contact')
     @include('sections.footer')
 

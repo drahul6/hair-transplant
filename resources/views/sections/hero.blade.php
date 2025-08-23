@@ -1,53 +1,75 @@
-<!-- Banner Slider Section -->
-<section class="banner-section">
-  <div id="clinicCarousel" class="carousel slide" data-bs-ride="carousel">
-    
-    <!-- Indicators -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#clinicCarousel" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#clinicCarousel" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#clinicCarousel" data-bs-slide-to="2"></button>
+<!-- Hero Banner Section -->
+<section class="hero-banner-section">
+  <div class="hero-background-image">
+    <img src="{{ asset('/images/banner_background.png') }}" alt="Hair Transplant Procedure" class="hero-bg-img">
+  </div>
+  
+  <div class="hero-overlay-content">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left Section - Text Content -->
+        <div class="col-lg-6 hero-text-section">
+          <div class="hero-text-content">
+            <h1 class="hero-headline">
+              <!-- <span class="hero-line-1">Life-Changing,</span>
+              <span class="hero-line-2">Natural-Looking Results</span> -->
+            </h1>
+          </div>
+        </div>
+
+        <!-- Right Section - Contact Form Overlay -->
+        <div class="col-lg-6 hero-form-section">
+          <div class="contact-form-overlay">
+            <div class="form-header">
+              <h2 class="form-title">BOOK A HAIR LOSS CONSULTATION!</h2>
+            </div>
+            
+            <form class="hero-contact-form" action="{{ route('contact.store') }}" method="POST">
+              @csrf
+              <div class="form-group mb-3">
+                <input type="text" class="form-control" name="first_name" placeholder="First Name*" required>
+              </div>
+              
+              <div class="form-group mb-3">
+                <input type="text" class="form-control" name="last_name" placeholder="Last Name*" required>
+              </div>
+              
+              <div class="form-group mb-3">
+                <input type="email" class="form-control" name="email" placeholder="E-Mail*" required>
+              </div>
+              
+              <div class="form-group mb-3">
+                <select class="form-control" name="service" required>
+                  <option value="">Please Select Service*</option>
+                  <option value="Hair Transplant">Hair Transplant</option>
+                  <option value="Beard Transplant">Beard Transplant</option>
+                  <option value="Eye Brows Transplant">Eye Brows Transplant</option>
+                  <option value="Moustache Transplant">Moustache Transplant</option>
+                  <option value="PRP (Platelet Rich Plasma)">PRP (Platelet Rich Plasma)</option>
+                  <option value="GFC Therapy">GFC Therapy</option>
+                  <option value="Biotin PRP">Biotin PRP</option>
+                  <option value="Meso Therapy">Meso Therapy</option>
+                </select>
+              </div>
+              
+              <div class="form-group mb-4">
+                <input type="tel" class="form-control" name="phone" placeholder="Mobile Number*" required>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-book-now w-100">
+                Book Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <!-- Slides -->
-    <div class="carousel-inner">
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <img src="{{ asset('/images/banner_1.jpg') }}" class="d-block w-100" alt="Clinic Image 1" style="height:550px; object-fit:cover;">
-        <div class="carousel-caption d-flex flex-column justify-content-center h-100">
-          <!-- <h3 class="banner-title">Transform Your Look Today!</h3>
-          <p class="banner-text">Get up to <span class="highlight">30% OFF</span> on your first hair transplant procedure</p>
-          <a href="#contact" class="btn btn-warning btn-lg mt-3">Get Special Offer</a> -->
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <img src="{{ asset('/images/banner_2.jpg') }}" class="d-block w-100" alt="Clinic Image 2" style="height:550px; object-fit:cover;">
-        <div class="carousel-caption d-flex flex-column justify-content-center h-100">
-          <!-- <h3 class="banner-title">Expert Hair Transplant Specialists</h3>
-          <p class="banner-text">Trusted by 1000+ satisfied patients worldwide</p>
-          <a href="#contact" class="btn btn-warning btn-lg mt-3">Book Free Consultation</a> -->
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="carousel-item">
-        <img src="{{ asset('/images/banner_3.png') }}" class="d-block w-100" alt="Clinic Image 3" style="height:550px; object-fit:cover;">
-        <div class="carousel-caption d-flex flex-column justify-content-center h-100">
-          <!-- <h3 class="banner-title">Advanced Techniques</h3>
-          <p class="banner-text">Natural Results with Lifetime Support</p>
-          <a href="#contact" class="btn btn-warning btn-lg mt-3">Start Your Journey</a> -->
-        </div>
-      </div>
-    </div>
-
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#clinicCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#clinicCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
+  </div>
+  
+  <!-- WhatsApp Float Button -->
+  <div class="whatsapp-float">
+    <a href="https://wa.me/919896951620?text=Hi! I'm interested in hair transplant services. Can you help me?" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
   </div>
 </section>

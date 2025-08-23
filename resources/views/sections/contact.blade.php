@@ -60,12 +60,15 @@
                                 <i class="fas fa-comment"></i> How can we help you?
                             </label>
                             <select name="service" class="form-control">
-                                <option value="">Select a service</option>
-                                <option value="Moustache-Transplant">Moustache Transplant</option>
-                                <option value="PRP">PRP Therapy ( Platelet Rich Plasma)</option>
-                                <option value="GFC-Therapy">GFC Therapy</option>
-                                <option value="Biotin-PRP">Biotin PRP</option>
-				                <option value="Mesotherapy">Mesotherapy</option>
+                                <option value="">Please Select Service*</option>
+                                <option value="Hair Transplant">Hair Transplant</option>
+                                <option value="Beard Transplant">Beard Transplant</option>
+                                <option value="Eye Brows Transplant">Eye Brows Transplant</option>
+                                <option value="Moustache Transplant">Moustache Transplant</option>
+                                <option value="PRP (Platelet Rich Plasma)">PRP (Platelet Rich Plasma)</option>
+                                <option value="GFC Therapy">GFC Therapy</option>
+                                <option value="Biotin PRP">Biotin PRP</option>
+                                <option value="Meso Therapy">Meso Therapy</option>
                                 <option value="other">Other</option>
                             </select>
 
